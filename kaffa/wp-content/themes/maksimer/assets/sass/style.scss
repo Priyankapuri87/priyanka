@@ -1,0 +1,31 @@
+/*!
+Theme Name: Maksimer
+Theme URI: https://github.com/maksimer/maksimer-wordpress-theme
+Version: 3.1.0
+Description: Theme developed by Maksimer AS
+Author: Maksimer AS
+Author URI: http://www.maksimer.no/
+Text Domain: maksimer_lang
+*/
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+@import 'vendor/reset';
+@import 'base/base';
+@import 'base/helpers';
+@import 'base/media';
+@import 'base/typography';
+@import 'base/form';
+@import 'layout/wrappers';
+@import 'layout/header';
+@import 'layout/grid';
+@import 'layout/footer';
+@import 'components/content-builder';
+@import 'components/elements';
+@import 'components/menu';
+@import 'woocommerce/product';
+@import 'woocommerce/general';
+@import 'woocommerce/singleproduct';
+
+/*@import 'sass/jumbotron';
+@import 'sass/variables';*/
+

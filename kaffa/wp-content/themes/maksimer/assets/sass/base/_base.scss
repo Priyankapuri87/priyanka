@@ -1,0 +1,30 @@
+/*
+ * Globals
+*/
+* {
+	box-sizing: border-box;
+
+	&:before,
+	&:after {
+		box-sizing: border-box;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+
+
+
+/*
+ * Body
+*/
+body {
+	@include sans-serif;
+	background-color: #e3e1de;
+	color: $text;
+	font-size: $font-size;
+	line-height: $line-height;
+}

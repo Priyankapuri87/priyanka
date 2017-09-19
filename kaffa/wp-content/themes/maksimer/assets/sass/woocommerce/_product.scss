@@ -1,0 +1,119 @@
+.woocommerce{
+  .woocommerce-breadcrumb{
+    padding-left:17px!important;
+    padding-top:22px;
+  }
+  .woocommerce-products-header{
+    margin: -17px 0 47px -50px!important;
+
+  }
+  .products{
+    float:right;
+    margin-right:-186px!important;
+    margin-top:-41px!important;
+
+    .product
+    {
+      width:24.5%!important;
+      background-color: white;
+      img{
+        padding:24px;
+        height:200px!important;
+      }
+      .wc-forward{
+        margin:10px 0 19px 86px!important;
+      }
+      h2{
+
+        text-align: center!important;
+        padding-top: 0!important;
+        margin-top: -12px!important;
+      }}}
+  .post-per-page{
+    float:right;
+  }
+  #nc-grid-list-view-assets{
+    float:right!important;
+    margin:-83px 385px 0 0!important;
+  }
+  #nc-list-grid-icons{
+    float:right!important;
+    margin:-83px 385px 0 0!important;
+    img{
+      width:16px;
+    }}
+  .price{
+    margin:18px 0 0 89px;
+
+  }
+  .add_to_cart_button{
+    margin:12px 0 13px 58px!important;
+
+  }
+}
+
+
+//sidebar
+.wrapper{
+  h1{
+    margin-top: 34px!important;
+  }
+  #sidebar-wrapper{
+    margin-left:-55px!important;
+    width:216px;
+    overflow: hidden;
+
+    .left{
+      list-style:none!important;
+      font-size:13px;
+      a{
+        color:black;
+      }
+    }
+    a:hover{
+      color:#c31b2e;
+    }
+  }
+
+}
+.main-wrapper{
+  .grid-vs-list{
+    display: block;
+    zoom: 1;
+    float: right;
+    margin: 5px -96px 0;
+  }
+  li{
+    list-style: none;
+    margin: 0 10px 0 0;
+    padding: 0;
+    float: left;
+  }
+  .grid{
+    opacity: 0.6;
+    cursor: pointer;
+    display: block;
+  }
+  .fa-th-large{
+    display: block;
+    max-height: 16px;
+    max-width: 22px;
+  }
+  .list{
+    cursor: pointer;
+    display: block;
+  }
+  .fa-th-list{
+    display: block;
+    max-height: 16px;
+    max-width: 22px;
+  }
+}
+//list view
+.wrapper{
+  .list{
+    width:76%!important;
+    margin-right:2%!important;
+
+  }
+}
