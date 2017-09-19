@@ -1,0 +1,129 @@
+/*
+Theme Name: Resume.
+Theme URI: priyankapuri.no
+Description: A new theme for resume.
+Version: 1.0
+Author: Priyanka
+Author URI: priyankapuri.no.
+*/
+
+* {
+    box-sizing: border-box;
+}
+[class="full"]                    {margin: 0 auto;}
+img                               {margin: 0; border:none;}
+a                                 {text-decoration:none; line-height: 14px; text-align: right; color: #bbbbbb; font-size :14px; font-family:Raleway , arial;}
+@media only screen and (min-width: 515px) and (max-width: 630px){
+
+    [class="full"]                    {width: 500px !important; margin: 0 auto;}
+    [class="about"]                   {width: 127px !important;}
+    [class="exp"]                     {width: 236px !important;}
+
+    [class="edu-last"],
+    [class="edu"]                     {width: 100% !important; display: block; border-bottom: 1px solid #ededed; padding-bottom: 15px;margin-bottom: 15px; overflow: hidden; }
+
+    [class="edu-last"]                {border-bottom: none; padding-bottom: 0px;}
+
+    [class="edu-last"] td,
+    [class="edu"] td                  {text-align: center !important;}
+
+    [class="edu-last"] table,
+    [class="edu"] table               {width: 100%;}
+
+    [class="space"],
+    [class="edu2"]                    {display: none;}
+
+    [class="space3"],
+    [class="space2"]                  {width: 11px !important;}
+
+    [class="block"]                   {display: block; width: 100%;}
+
+    [class="img2"],
+    [class="img"]                     {height: auto; width: 100%;}
+
+    [class="mid"],
+    [class="half"]                    {display: block; width: 245px; margin-top: 10px; float: left;}
+
+    tr[class="midl"]                  {display: inline-block; float: left; width: 10px;}
+
+    [class="cont-space"],
+    [class="mid"]                     {width: 10px; float: left;}
+
+    [class="cont"]                    {width: 160px !important;}
+    [class="blog"]                    {width: 245px !important;}
+    [class="view"]                    {width: 183px !important;}
+    [class="social"]                  {width: 173px !important;}
+}
+
+@media only screen and (max-width: 515px) {
+
+    .full
+    {width: 280px !important;}
+
+    [class="company"],
+    [class="exp"],
+    [class="about"],
+    [class="fblock"]                  {display: block; width: 100% !important; text-align: center !important; margin-bottom: 10px; clear:both;}
+
+    [class="exp"]                     {text-align: left !important; padding-top: 20px;}
+
+    [class="edu-last"],
+    [class="edu"]                     {width: 100% !important; display: block; border-bottom: 1px solid #ededed; padding-bottom: 15px; margin-bottom: 15px; overflow: hidden;}
+
+
+    [class="edu-last"]                {border-bottom: none; padding-bottom: 0px;}
+
+    [class="fblock"] td,
+    [class="edu-last"] td,
+    [class="edu"] td                  {text-align: center !important;}
+
+    [class="company"]                 {text-align: left !important;}
+
+    [class="edu-last"] table,
+    [class="edu"] table               {width: 100%;}
+
+    [class="view"],
+    [class="space"],
+    [class="edu2"]                    {display: none;}
+
+    [class="space2"]                  {height: 30px; display: block;}
+    [class="space3"]                  {height: 10px; display: block;}
+
+    [class="blog"],
+    [class="cont"],
+    [class="block"]                   {display: block; width: 100%;}
+
+    [class="blog"] td a,
+    [class="blog"] td                 {text-align: center !important;}
+
+    [class="img"]                     {height: auto; width: 100%;}
+
+    [class="midl"],
+    [class="half"]                    {display: block; width: 100%; margin-top: 10px; float: left;}
+
+    [class="half"]                    {width: 135px;}
+
+    [class="social"],
+    [class="cont-space"],
+    [class="midl"]                    {display: none;}
+
+    [class="fblock"] a                {margin-bottom: 20px !important; text-align: center !important;}
+    [class="cli"] [class="fblock"]    {border: none !important;}
+
+    [class="cli"]                     {text-align: center;}
+    [class="inline"]                  {display: inline-block !important;}
+    a[class="inline"]                  {margin-bottom: 5px !important;}
+
+    [class="blog"],
+    [class="cont"]                    {margin-bottom: 40px;}
+
+    tr[class="midl"]                    {display: inline-block; float: left; width: 10px;}
+
+    [class="cont"] td img,
+    tr[class="testimoni"] td img        {display: inline-block !important;}
+
+    tr[class="testimoni"] td            {text-align: center !important;}
+    [class="cont"] td                 {text-align: center !important;}
+}
+
+
